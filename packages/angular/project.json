@@ -74,6 +74,12 @@
           "browserTarget": "angular:build:development"
         }
       },
+      "options": {
+        "browserTarget": "angular:build",
+        "disableHostCheck": true,
+        "host": "0.0.0.0",
+        "port": 4200
+      },
       "defaultConfiguration": "development"
     },
     "extract-i18n": {
