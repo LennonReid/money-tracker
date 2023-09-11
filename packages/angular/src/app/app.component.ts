@@ -11,7 +11,6 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
     <ion-app>
       <ion-content>
         <ion-router-outlet
-          [environmentInjector]="environmentInjector"
         ></ion-router-outlet>
       </ion-content>
     </ion-app>
