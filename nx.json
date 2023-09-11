@@ -1,13 +1,7 @@
 {
-  "extends": "nx/presets/npm.json",
-  "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "monic",
-  "affected": {
-    "defaultBase": "main"
-  },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/nx-cloud",
+      "runner": "nx-cloud",
       "options": {
         "cacheableOperations": [
           "build",
@@ -18,6 +12,12 @@
         "accessToken": "Njk1ZGJmYWYtZjA3ZC00YjkyLThiNzMtZDE5MmY0NWFjNGU3fHJlYWQtd3JpdGU="
       }
     }
+  },
+  "extends": "nx/presets/npm.json",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "npmScope": "monic",
+  "affected": {
+    "defaultBase": "main"
   },
   "generators": {
     "@nrwl/angular:application": {
